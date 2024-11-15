@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.admin-dashboard, .manage-donors {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard h1, .manage-donors h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.panel-options, .manage-donors table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.panel-options .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #dc3545;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background: #f8f9fa;
+    color: #333;
+}
+
+.btn-edit {
+    color: #28a745;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.btn-delete {
+    color: #dc3545;
+    text-decoration: none;
+}
